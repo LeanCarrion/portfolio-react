@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-
+import Abouth from "./components/About"
 function App() {
 
     return (
@@ -10,6 +10,8 @@ function App() {
             <Navbar />
 
             <Hero />
+            
+            <Abouth/>
 
         </>
 
