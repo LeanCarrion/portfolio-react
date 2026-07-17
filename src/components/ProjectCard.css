@@ -1,0 +1,56 @@
+.project-card {
+  width: 320px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,.12);
+
+  display: flex;
+  flex-direction: column;
+
+  transition: .25s;
+}
+
+.project-card:hover{
+  transform: translateY(-5px);
+}
+
+.project-card img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+}
+
+.project-card h3{
+  margin:20px 20px 10px;
+}
+
+.project-card p{
+  margin:0 20px 15px;
+  line-height:1.5;
+}
+
+.project-card div{
+  margin-top:auto;
+
+  display:flex;
+
+  gap:10px;
+
+  padding:20px;
+}
+
+.project-card button{
+
+  flex:1;
+
+  padding:10px;
+
+  border:none;
+
+  border-radius:8px;
+
+  cursor:pointer;
+
+}
