@@ -5,6 +5,7 @@ import ProjectCard from "./components/ProjectCard";
 import projects from "./data/projects";
 import "./App.css";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
                 </div>
             </section>
             <Contact />
+            <Footer />
 
         </>
 
