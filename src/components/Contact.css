@@ -1,0 +1,35 @@
+.contact {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-links a {
+    text-decoration: none;
+    padding: 12px 24px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    color: #333;
+    transition: 0.2s;
+}
+
+.contact-links a:hover {
+    background-color: #333;
+    color: white;
+}
