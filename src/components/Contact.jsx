@@ -14,14 +14,14 @@ function Contact() {
       <div className="contact-links">
 
         <a
-          href="https://www.linkedin.com/in/TU-LINKEDIN"
+          href="https://www.linkedin.com/in/leandro-c-82a88a270/"
           target="_blank"
           rel="noopener noreferrer"
         >
           💼 LinkedIn
         </a>
 
-        <a href="mailto:tu-email@frro.utn.edu.ar">
+        <a href="lcarrionles@frro.utn.edu.ar">
           📧 Email
         </a>
 
