@@ -4,10 +4,18 @@ function Navbar() {
       <h2 style={styles.logo}>Leandro</h2>
 
       <ul style={styles.links}>
-        <li>Inicio</li>
-        <li>Proyectos</li>
-        <li>Sobre mí</li>
-        <li>Contacto</li>
+        <li>
+          <a href="#hero">Inicio</a>
+          </li>
+        <li>
+          <a href="#projects">Proyectos</a>
+        </li>
+        <li>
+          <a href="#about">Sobre mí</a>
+        </li>
+        <li>
+          <a href="#contact">Contacto</a>
+        </li>
       </ul>
     </nav>
   );

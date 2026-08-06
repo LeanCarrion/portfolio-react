@@ -1,6 +1,6 @@
 function Hero() {
     return (
-        <section style={styles.hero}>
+        <section id="hero" style={styles.hero}>
 
             <h1 style={styles.title}>
                 Hola, soy Leandro

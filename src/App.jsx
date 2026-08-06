@@ -19,7 +19,7 @@ function App() {
             <Hero />
             
             <Abouth/>
-            <section className="projects">
+            <section id="projects" className="projects">
 
                 <h2>Proyectos</h2>
 
