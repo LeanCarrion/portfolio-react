@@ -6,7 +6,7 @@ import projects from "./data/projects";
 import "./App.css";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
+import "./Projects.css";
 
 function App() {
 
