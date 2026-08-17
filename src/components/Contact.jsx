@@ -21,7 +21,7 @@ function Contact() {
           💼 LinkedIn
         </a>
 
-        <a href="lcarrionles@frro.utn.edu.ar">
+        <a href="mailto:lcarrionles@frro.utn.edu.ar">
           📧 Email
         </a>
 
