@@ -25,9 +25,11 @@ function ProjectCard({
           GitHub
         </button>
 
-        <button onClick={() => window.open(demo, "_blank")}>
-          Demo
-        </button>
+        {demo && (
+          <button onClick={() => window.open(demo, "_blank")}>
+            Demo
+          </button>
+        )}
       </div>
     </div>
   );
