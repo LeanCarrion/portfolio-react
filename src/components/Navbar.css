@@ -21,12 +21,27 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
 }
 
-/* Tu nombre (Logo) */
+/* Logo*/
 .navbar-logo {
   margin: 0;
   font-size: 1.4rem;
   color: #1a1a1a;
-  font-weight: 700;
+  font-weight: 800;
+  font-family: 'Courier New', Courier, monospace; /* Tipografía tipo código */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Le añade dinámicamente un punto o guion al final */
+.navbar-logo::after {
+  content: '_';
+  color: #0070f3; /* El mismo azul de tus enlaces */
+}
+
+/* Animación sutil al pasar el mouse */
+.navbar-logo:hover {
+  letter-spacing: 1px; /* Se estira sutilmente */
+  color: #0070f3;
 }
 
 /* Lista de enlaces */

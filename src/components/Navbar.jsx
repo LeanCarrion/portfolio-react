@@ -3,8 +3,9 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar-container">
+      <a href="#hero" style={{ textDecoration: 'none' }}>
       <h2 className="navbar-logo">Leandro</h2>
-
+      </a>
       <ul className="navbar-menu">
         <li>
           <a href="#hero" className="navbar-link">Inicio</a>
