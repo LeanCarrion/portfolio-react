@@ -1,4 +1,5 @@
 .hero{
+    background-color: #E0F2FE;
     display: flex;
     flex-direction: column;
     justify-content: center;
