@@ -1,0 +1,74 @@
+/* Contenedor principal de la barra (Fijo arriba) */
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  
+  /* Efecto moderno esmerilado (Glassmorphism) */
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  
+  /* Sombra muy sutil */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}
+
+/* Tu nombre (Logo) */
+.navbar-logo {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+/* Lista de enlaces */
+.navbar-menu {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Enlaces individuales (Estilo e interactividad) */
+.navbar-link {
+  color: #555;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  position: relative;
+  padding: 6px 0;
+  transition: color 0.25s ease;
+}
+
+/* Cambia de color cuando pasas el mouse */
+.navbar-link:hover {
+  color: #0070f3; /* Azul moderno */
+}
+
+/* --- EFECTO: Línea animada que se expande desde el centro --- */
+.navbar-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0070f3; /* Color de la línea */
+  transform: scaleX(0);
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+/* La línea se muestra al hacer hover */
+.navbar-link:hover::after {
+  transform: scaleX(1);
+}
