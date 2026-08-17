@@ -1,16 +1,46 @@
-# React + Vite
+# Portfolio Personal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio web personal desarrollado para presentar mi perfil académico, conocimientos y proyectos.
 
-Currently, two official plugins are available:
+El proyecto forma parte de mi formación en Ingeniería en Sistemas de la Información y está orientado a mostrar mi perfil tecnológico, con especial interés en **Data Analytics, programación y análisis de datos**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologías utilizadas
 
-## React Compiler
+* React
+* JavaScript
+* HTML
+* CSS
+* Vite
+* Git
+* GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Estructura del proyecto
 
-## Expanding the ESLint configuration
+El proyecto está organizado mediante componentes reutilizables:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* `Navbar` — navegación principal.
+* `Hero` — presentación inicial.
+* `About` — información sobre mi perfil.
+* `ProjectCard` — componente reutilizable para mostrar proyectos.
+* `Contact` — información de contacto.
+* `Footer` — pie de página.
+
+Los proyectos se gestionan mediante datos independientes de los componentes, permitiendo agregar o modificar proyectos sin alterar la estructura de las tarjetas.
+
+
+Luego abrir la dirección indicada por Vite en el navegador.
+
+## 📱 Diseño
+
+El sitio utiliza un enfoque **responsive y mobile-first**, adaptándose a diferentes tamaños de pantalla.
+
+## 🎯 Objetivo
+
+El objetivo principal del proyecto es contar con un espacio para presentar mi perfil profesional y académico, además de servir como práctica para el desarrollo de aplicaciones web utilizando React.
+
+## 👤 Autor
+
+**Leandro Carrion Lescano**
+
+Estudiante de Ingeniería en Sistemas de la Información — UTN.
+
