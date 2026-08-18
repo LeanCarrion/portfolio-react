@@ -8,7 +8,7 @@ const projects = [
     description: "Portfolio personal desarrollado con React.",
     technologies: "React - Vite - CSS",
     github: "https://github.com/LeanCarrion/portfolio-react",
-    demo: "https://github.com/",
+    demo: "https://portfolio-react-two-ivory-25.vercel.app/",
     image: portfolioImg,
   },
   {
