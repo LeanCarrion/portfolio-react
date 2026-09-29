@@ -8,10 +8,9 @@ function Hero() {
             </h1>
 
             <p>
-                Estudiante de Ingeniería en Sistemas.
-                Actualmente me estoy especializando en
-                Data Analytics mediante proyectos con
-                Python, SQL, Power BI y React.
+                Estudiante de Ingeniería en Sistemas de la UTN.
+                Orientando mi formación y proyectos personales hacia el 
+                rol de Data Engineer, con sólida base en Python, SQL y desarrollo técnico.
             </p>
 
             <a href="#projects">
