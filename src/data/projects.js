@@ -6,33 +6,17 @@ import TSPImg from "../assets/projects/TSP.png";
 
 const projects = [
   {
-    title: "Portfolio",
-    description: "Portfolio personal desarrollado con React.",
-    technologies: "React - Vite - CSS",
-    github: "https://github.com/LeanCarrion/portfolio-react",
-    demo: "https://portfolio-react-two-ivory-25.vercel.app/",
-    image: portfolioImg,
-  },
-  {
-    title: "Web Store",
-    description: "Tienda online de alimento para perros.",
-    technologies: "React - Node - MySQL",
-    github: "https://github.com/MRP2004/Petshop-",
-    demo: "",
-    image: webStoreImg,
-  },
-  {
     title: "Algoritmos Genéticos",
-    description: "Paper sobre optimización de carteras mediante algoritmos genéticos.",
+    description: "Algoritmo genético programado en Python que automatiza el cálculo de carteras financieras eficientes mediante el Modelo de Markowitz. Procesa datos históricos de mercado extraídos vía API para resolver la distribución óptima de capital bajo restricciones matemáticas estrictas. Papper presentado en CoNaIISI 2026",
     technologies: "Python - Pandas",
     github: "https://github.com/LeanCarrion/TPI_AlgGeneticos_Optimizaci-n-de-Carteras-Financieras",
     demo: "",
     image: algoritmosImg,
   },
   {
-    title: "El Problema de la Mochila (Knapsack Problem)",
-    description: "Este proyecto implementa y compara dos enfoques algorítmicos clásicos para resolver el Problema de la Mochila ",
-    technologies: "Python (Librerías nativas os e itertools) & Git / GitHub.",
+    title: "Resolución y Optimización del Knapsack Problem",
+    description: "Implementación en Python de métodos clásicos de búsqueda para resolver la asignación óptima de elementos bajo restricciones de peso y volumen. Evalúa el grado de optimización comparando la precisión de una búsqueda exhaustiva frente a la velocidad de un algoritmo goloso (Greedy).",
+    technologies: "Python • Librerías Nativas (os) • Git • GitHub",
     github: "https://github.com/LeanCarrion/tp2-problema-mochila",
     demo: "",
     image: KnapsackImg,
@@ -44,6 +28,22 @@ const projects = [
     github: "https://github.com/LeanCarrion/TrabajoPractico3-ProblemaDelViajante",
     demo: "",
     image: TSPImg,
+  },
+  {
+    title: "Portfolio Profesional y Plataforma de Proyectos",
+    description: "Aplicación web responsive desarrollada desde cero para centralizar y exhibir mis soluciones técnicas. Configurada con un flujo de integración continua que automatiza las actualizaciones en la nube",
+    technologies: "React • Vite • CSS3 • Git & GitHub • Vercel.",
+    github: "https://github.com/LeanCarrion/portfolio-react",
+    demo: "https://portfolio-react-two-ivory-25.vercel.app/",
+    image: portfolioImg,
+  },
+  {
+    title: "Plataforma Web Integral (Full Stack)",
+    description: "Proyecto académico que integra el desarrollo frontend y backend para la gestión de productos y stock. Destaca por estructurar una arquitectura limpia para el flujo de información, desde el cliente hasta la base de datos relacional.",
+    technologies: "React • Node.js • MySQL.",
+    github: "https://github.com/MRP2004/Petshop-",
+    demo: "",
+    image: webStoreImg,
   },
 ];
 

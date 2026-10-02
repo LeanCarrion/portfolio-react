@@ -10,7 +10,7 @@ function Hero() {
             <p>
                 Estudiante de Ingeniería en Sistemas de la UTN.
                 Orientando mi formación y proyectos personales hacia el 
-                rol de Data Engineer, con sólida base en Python, SQL y desarrollo técnico.
+                rol de <strong>Data Engineer</strong>, con sólida base en <strong>Python, SQL y desarrollo técnico.</strong>
             </p>
 
             <a href="#projects">

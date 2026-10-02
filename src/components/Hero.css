@@ -12,16 +12,19 @@
 }
 
 .hero h1{
-    font-weight: 700;
-    letter-spacing: 2px;
+    font-weight: 900;
+    letter-spacing: 1px;
     margin-top: 40px;
 }
 
 
 .hero p{
+    font-size: 1.25rem;
+    line-height: 1.6;    
     max-width: 1000px;
     margin-top: 40px;
-    font-size: 1.2rem;
+    color: #4a4a4a; 
+    
 
     
 }
